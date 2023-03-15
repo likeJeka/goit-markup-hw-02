@@ -3,21 +3,21 @@ body {
   color: #434455;
   font-family: Roboto sans-serif;
 }
-.web {
-  color: #4d5ae5;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
-.logo {
+.studio {
   color: #2e2f42;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.list {
+.logo {
+  color: #4d5ae5;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.link {
   list-style: none;
   text-decoration: none;
 }
