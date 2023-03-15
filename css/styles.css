@@ -1,3 +1,33 @@
 body {
-    background-color: #fff;
+  background-color: #fff;
+  color: #434455
+  font-family:"Roboto", sans-serif;
+}
+.web {
+  color: #4d5ae5;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: #2e2f42;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* site-nav */
+
+.site-nav a {
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
