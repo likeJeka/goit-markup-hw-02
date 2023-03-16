@@ -11,9 +11,12 @@ body {
 
 /* HEADER */
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -42,10 +45,9 @@ body {
   font-style: normal;
 }
 .section-first {
-    
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
-background: #2E2F42;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: #2e2f42;
 }
