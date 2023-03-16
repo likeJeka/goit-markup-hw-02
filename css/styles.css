@@ -20,21 +20,23 @@ body {
   color: #4d5ae5;
 }
 
-.studio {
-  font-weight: 800;
+.studio {listweight: 800;
   font-size: 18px;
   line-height: 21px;
   color: #2e2f42;
 }
+.list {
+    list-style: none;
+}
 
-.site-nav .list {
+.list .nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #2e2f42;
 }
-.site-nav .list:hover,
-.site-nav .list:focus {
+.list .nav:hover,
+.list .nav:focus {
   color: #4d5ae5;
 }
 .link {
