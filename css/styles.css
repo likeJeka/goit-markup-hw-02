@@ -1,16 +1,11 @@
 body {
-  background-color: #ffffff;
-  color: #434455;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-.link {
-  text-decoration: none;
-  list-style: none;
-}
 
 /* HEADER */
-.logo {
+
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -26,28 +21,123 @@ body {
   line-height: 21px;
   color: #2e2f42;
 }
-.site-nav :focus,
-.site-nav :hover {
-  color: #4d5ae5;
-}
 
-.site-nav {
+.site-nav .list {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #2e2f42;
 }
+.site-nav .list:hover,
+.site-nav .list:focus {
+  color: #4d5ae5;
+}
+.link {
+  text-decoration: none;
+  list-style: none;
+}
 .header-contact-list {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #434455;
-  font-style: normal;
+}
+.header-contact-list:hover,
+.header-contact-list:focus {
+  color: #4d5ae5;
+}
+.section {
+  background-color: #2e2f42;
 }
 .section-first {
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
-  background: #2e2f42;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button {
+  color: #ffffff;
+  left: 636px;
+  top: 428px;
+  background: #4d5ae5;
+}
+.section-text-second {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-text-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+}
+.section-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.section-people {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-four {
+  background-color: #f4f4fd;
+}
+.done {
+  background-color: #2e2f42;
+}
+.done-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.done-studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.done-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
