@@ -1,35 +1,51 @@
 body {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #434455;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-.studio {
-  color: #2e2f42;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-.logo {
-  color: #4d5ae5;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
 .link {
-  list-style: none;
   text-decoration: none;
-  font-style: normal;
+  list-style: none;
 }
 
-/* site-nav */
+/* HEADER */
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4d5ae5;
+}
 
-.site-nav a {
+.studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
   color: #2e2f42;
-  letter-spacing: 0.02em;
+}
+.site-nav :focus,
+.site-nav :hover {
+  color: #4d5ae5;
+}
+
+.site-nav {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
+  color: #2e2f42;
+}
+.header-contact-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  font-style: normal;
+}
+.section-first {
+    
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+background: #2E2F42;
 }
