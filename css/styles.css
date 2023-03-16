@@ -1,8 +1,5 @@
 :root {
-    
 }
-
-
 
 body {
   font-family: "Raleway", sans-serif;
@@ -148,4 +145,29 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.button-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  font-family: "Roboto";
+  font-style: normal;
+}
+.list-work {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.list-style {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
