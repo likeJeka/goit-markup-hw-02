@@ -1,6 +1,14 @@
+:root {
+    
+}
+
+
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* HEADER */
