@@ -184,8 +184,14 @@ body {
   color: #4d5ae5;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
+}
+.button-two:hover,
+.button-two:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 .list-work {
   font-weight: 500;
