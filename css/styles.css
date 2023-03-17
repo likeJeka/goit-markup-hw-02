@@ -66,15 +66,26 @@ body {
 .section-first {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 .button {
   color: #ffffff;
   left: 636px;
   top: 428px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   background: #4d5ae5;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 .section-text-second {
   font-weight: 500;
@@ -93,7 +104,8 @@ body {
 .section-about {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
 
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -103,9 +115,10 @@ body {
 .section-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 .section-people {
@@ -123,19 +136,21 @@ body {
   color: #434455;
 }
 .section-four {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
+
 .done {
   background-color: #2e2f42;
 }
 .done-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway";
 }
 
 .done-studio {
