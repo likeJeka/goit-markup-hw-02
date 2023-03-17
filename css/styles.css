@@ -28,6 +28,7 @@ body {
 }
 .list {
   list-style: none;
+  background-color: #FFFFFF
 }
 
 .list .nav {
@@ -112,6 +113,10 @@ body {
 
   color: #2e2f42;
 }
+.section-four {
+    background-color: #F4F4FD;
+}
+
 .section-team {
   font-weight: 700;
   font-size: 36px;
@@ -135,9 +140,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-four {
-  background-color: #ffffff;
-}
 
 .done {
   background-color: #2e2f42;
@@ -150,7 +152,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
 }
 
 .done-studio {
