@@ -20,39 +20,45 @@ body {
   color: #4d5ae5;
 }
 
-.studio {listweight: 800;
+.studio {
+  listweight: 800;
   font-size: 18px;
   line-height: 21px;
   color: #2e2f42;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .list .nav {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .list .nav:hover,
 .list .nav:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+.header-contact {
+  font-style: normal;
 }
 .link {
   text-decoration: none;
   list-style: none;
 }
-.header-contact-list {
+.list {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
-.header-contact-list:hover,
-.header-contact-list:focus {
-  color: #4d5ae5;
+.list:hover,
+.list:focus {
+  color: #404bbf;
 }
 .section {
   background-color: #2e2f42;
