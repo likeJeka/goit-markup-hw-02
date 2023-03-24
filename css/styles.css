@@ -1,3 +1,6 @@
+
+/* IMPORTANT INFORMATION  */
+
 :root {
   --color-navy-blue: #2e2f42;
   --color-white: #ffffff;
@@ -16,6 +19,23 @@ body {
   background-color: var(--color-white);
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+}
+.list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
 /* HEADER */
 
 .header-logo {
@@ -29,13 +49,10 @@ body {
 }
 
 .studio {
-  listweight: 800;
+  font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   color: var(--color-grey);
-}
-.list {
-  list-style: none;
 }
 
 .list .nav {
@@ -48,26 +65,21 @@ body {
 .list .nav:hover,
 .list .nav:focus {
   color: var(--color-ocean);
+
 }
 .header-contact {
   font-style: normal;
 }
-.link {
-  text-decoration: none;
-  list-style: none;
-}
-.list {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
+
 .list:hover,
 .list:focus {
   color: var(--color-ocean);
 }
+
+
+/* <!-- FIRST SECTION --> */
+
+
 .section {
   background-color: var(--color-grey);
 }
@@ -94,6 +106,9 @@ body {
 .button:hover,
 .button:focus {
   background-color: var(--color-ocean);
+
+
+  /* <!-- SECOND SECTION --> */
 }
 .section-text-second {
   font-weight: 500;
@@ -109,6 +124,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+
+/* <!-- SECTION THREE --> */
+
 .section-about {
   font-weight: 700;
   font-size: 36px;
@@ -120,6 +138,9 @@ body {
 
   color: var(--color-grey);
 }
+
+/* <!-- SECTION FOUR --> */
+
 .section-four {
   background-color: var(--color-cloud);
 }
@@ -150,6 +171,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+
+/* <!-- YEAH, FOOTER  --> */
 
 .done {
   background-color: var(--color-grey);
@@ -184,6 +207,8 @@ body {
 
 /* PORTFOLIO */
 
+/* <!-- SECTION 'BUTTONS ' --> */
+
 .button-two {
   font-weight: 500;
   font-size: 16px;
@@ -201,6 +226,11 @@ body {
   background-color: var(--color-ocean);
   cursor: pointer;
 }
+
+
+/* <!-- MAIN CONTENT LIKE PICTURES  --> */
+
+
 .list-work {
   font-weight: 500;
   font-size: 20px;
